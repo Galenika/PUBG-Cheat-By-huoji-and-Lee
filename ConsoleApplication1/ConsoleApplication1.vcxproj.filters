@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\imgui">
+      <UniqueIdentifier>{d78f7307-29a9-46ef-95b8-c53c232dbe20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\imgui">
+      <UniqueIdentifier>{bbdc8eda-e543-420a-b151-d7f3a5a0c926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Memory">
+      <UniqueIdentifier>{c03e6b7d-0e8f-45e0-be55-7c6cafa67da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Memory">
+      <UniqueIdentifier>{e024f9d0-fc4e-4c3a-bcb2-88346f7c6919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AntiLeak">
+      <UniqueIdentifier>{a98f0e51-6a61-4363-8a5f-481aaae45f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AntiLeak">
+      <UniqueIdentifier>{af511b60-2bb9-47e5-9899-594c4dc9b09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Handle">
+      <UniqueIdentifier>{ad010ed7-93b5-4c23-b88f-7cac6acea779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Handle">
+      <UniqueIdentifier>{3cd4f427-1154-4469-8f14-7e5c49e7759a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bypass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\dx9\imgui_dx9.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>头文件\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_pcg32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_fnv1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="strenc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chars.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>头文件\AntiLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiLeak.h">
+      <Filter>头文件\AntiLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuz_driver.hpp">
+      <Filter>头文件\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuz_shellcode.h">
+      <Filter>头文件\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="dyn_data.hpp">
+      <Filter>头文件\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="process.hpp">
+      <Filter>头文件\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="scm.h">
+      <Filter>头文件\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="sup.h">
+      <Filter>头文件\Handle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bypass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\dx9\imgui_dx9.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>源文件\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>源文件\AntiLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiLeak.cpp">
+      <Filter>源文件\AntiLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuz_driver.cpp">
+      <Filter>源文件\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuz_shellcode.cpp">
+      <Filter>源文件\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="dyn_data.cpp">
+      <Filter>源文件\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>源文件\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="scm.cpp">
+      <Filter>源文件\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="sup.cpp">
+      <Filter>源文件\Handle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\MASMPlus\z.asm">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
